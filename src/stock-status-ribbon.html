@@ -1,13 +1,13 @@
 <div class="stock-status-ribbon-component">
   <div
     class="progress"
-    ng-style="{ 'height': $ctrl.data.config.styles.height }"
+    ng-style="{ 'height': $ctrl.config.styles.height }"
   >
     <div
       class="progress-bar"
       ng-repeat="bar in $ctrl.config.bars track by $index"
       ng-class="bar.class"
-      ng-style="{ 'width': $ctrl.data[bar.id].percentage + '%', 'height': $ctrl.data.config.styles.height, 'line-height': $ctrl.data.config.styles.height }"
+      ng-style="{ 'width': $ctrl.data[bar.id].percentage + '%', 'height': $ctrl.config.styles.height, 'line-height': $ctrl.config.styles.height }"
     >
       <span>
         <span
