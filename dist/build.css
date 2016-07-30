@@ -1,0 +1,13 @@
+.stock-status-ribbon-component .progress {
+  padding: 0;
+  border: 1px solid #ccc;
+}
+.stock-status-ribbon-component .progress-bar {
+  box-shadow: none;
+  padding: 0;
+  border: 1px solid #ccc;
+}
+.stock-status-ribbon-component .progress-bar-info {
+  background-color: #fff;
+  color: #000;
+}
