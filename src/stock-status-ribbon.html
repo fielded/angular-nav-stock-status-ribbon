@@ -1,0 +1,15 @@
+<div class="stock-status-ribbon-component">
+  <div class="progress" ng-repeat="bar in $ctrl.config.bars track by $index">
+    <div
+      class="progress-bar"
+      ng-class="bar.class"
+      ng-style="{ 'width': $ctrl.data[bar.id].percentage + '%' }"
+    >
+      <span>
+        <span
+          ng-bind="$ctrl.data[bar.id].value | number: 0"
+        ></span><span ng-if="$ctrl.config.isPercentage">%</span>
+      </span>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,17 @@
+{
+  "name": "angular-nav-stock-status-ribbon",
+  "description": "Angular NAV module for the stock status summary ribbon",
+  "main": "dist/bundle.js",
+  "authors": [
+    "Patricia Garcia <pat@patriciagarcia.me>"
+  ],
+  "license": "Apache 2.0",
+  "homepage": "https://github.com/fielded/angular-nav-stock-status-ribbon",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
