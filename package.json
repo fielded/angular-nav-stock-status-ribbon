@@ -4,7 +4,7 @@
   "description": "",
   "main": "dist/bundle.js",
   "scripts": {
-    "assets": "cp src/*.css dist/bundle.css",
+    "assets": "cp src/index.css dist/bundle.css",
     "build": "standard && rollup -c && npm run assets",
     "pretest": "standard",
     "test": "npm run -s build && karma start"
