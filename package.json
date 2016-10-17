@@ -1,6 +1,6 @@
 {
   "name": "angular-nav-stock-status-ribbon",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "",
   "main": "dist/bundle.js",
   "scripts": {
