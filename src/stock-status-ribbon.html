@@ -7,6 +7,7 @@
       class="progress-bar"
       ng-repeat="bar in $ctrl.config.bars track by $index"
       ng-class="bar.class"
+      ng-if="$ctrl.data[bar.id].percentage"
       ng-style="{ 'width': $ctrl.data[bar.id].percentage + '%', 'height': $ctrl.config.styles.height, 'line-height': $ctrl.config.styles.height }"
     >
       <span>
