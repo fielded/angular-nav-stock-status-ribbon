@@ -12,7 +12,7 @@
     >
       <span>
         <span
-          ng-bind="$ctrl.data[bar.id].value | number: 0"
+          ng-bind="$ctrl.data[bar.id].value | number: $ctrl.config.decimalPlaces"
         ></span><span ng-if="$ctrl.config.isPercentage">%</span>
       </span>
     </div>
