@@ -1,5 +1,7 @@
 # angular-nav-stock-status-ribbon
 
+**Deprecated**: This repository has been deprecated together with https://github.com/fielded/nav-integrated-state-dashboard.
+
 [![Build Status](https://travis-ci.org/fielded/angular-nav-stock-status-ribbon.svg)](https://travis-ci.org/fielded/angular-nav-stock-status-ribbon) ![Dependecy Status](https://david-dm.org/fielded/angular-nav-stock-status-ribbon.svg) ![Dev Dependecy Status](https://david-dm.org/fielded/angular-nav-stock-status-ribbon/dev-status.svg)
 
 ## Installation
